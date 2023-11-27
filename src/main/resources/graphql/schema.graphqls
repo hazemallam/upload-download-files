@@ -1,0 +1,9 @@
+type Query {
+    getFileMetadata(fileId: ID): FileMetadata
+}
+
+type FileMetadata {
+    id: ID
+    name: String
+    path: String
+}
